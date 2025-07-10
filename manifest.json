@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Velog 이미지 태그 복사기",
+  "version": "1.0",
+  "description": "Velog 마크다운 이미지를 <img> 태그로 변환하여 클립보드에 복사합니다.",
+  "permissions": ["storage", "scripting", "clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://velog.io/write*"],
+      "js": ["content.js"]
+    }
+  ],
+  "host_permissions": [
+    "https://velog.io/*"
+  ]
+}
