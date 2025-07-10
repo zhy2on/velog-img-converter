@@ -9,17 +9,5 @@ Velog 글쓰기 창에서 마크다운 이미지(`![](url)`)를 클릭하면
 3. 지정한 크기의 `<img>` 태그가 클립보드에 자동 복사됨
 4. 원하는 위치에 붙여넣기
 
-## 특징
-- 팝업에서 설정한 값은 저장되어 재사용됨
-- 복사 성공 시 알림(alert) 표시
-
 ## 예시
-```markdown
-![](https://velog.velcdn.com/images/xxx/image.png")
-```
-
-<center>⬇️</center>
-
-```html
-<img src="https://velog.velcdn.com/images/xxx/image.png" width="400" height="300">
-```
+<img src="https://github.com/user-attachments/assets/3fe1ad63-5b52-4bed-aa3a-d4d13a79b7ac" width="400">
